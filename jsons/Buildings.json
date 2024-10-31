@@ -1,25 +1,27 @@
 [
-	{
-		"name": "Holodeck",
-		"replaces": "Circus Maximus",
-		"uniqueTo": "Aliens",
-		"cost": 480,
-		"happiness": 12,
-		"culture": 12,
-		"science": 12,
-		"maintenance": 96,
-		"isNationalWonder": true,
-		"requiredBuildingInAllCities": "Colosseum",
-		"requiredTech": "Horseback Riding"
-	},
-	{
-		"name": "Breeders",
-		"replaces": "Aqueduct",
-		"uniqueTo": "Aliens",
-		"cost": 80,
-		"hurryCostModifier": 160,
-		"happiness": 2,
-		"uniques": ["40% of food is carried over after a new citizen is born"],
-		"requiredTech": "Engineering"
-	}
+{
+	"name": "Kamenita Vrata",
+	"replaces": "Circus Maximus",
+	"uniqueTo": "Croatia",
+	"cost": 450,
+	"happiness": 10,
+	"culture": 8,
+	"faith": 4,
+	"maintenance": 6,
+	"isNationalWonder": true,
+	"requiredBuildingInAllCities": "Shrine",
+	"requiredTech": "Construction"
+},
+{
+	"name": "Glagolitic School",
+	"replaces": "Library",
+	"uniqueTo": "Croatia",
+	"cost": 80,
+	"science": 2,
+	"culture": 3,
+	"maintenance": 1,
+	"specialistSlots": ["Scientist"],
+	"uniques": ["+1 culture per specialist", "Grants extra science for each religious building in the city"],
+	"requiredTech": "Writing"
+}
 ]
